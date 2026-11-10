@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa Cruz Mountain Tree Co. | Farm-Direct Christmas Tree Delivery & Setup</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            spruce: {
+              800: '#0c2e1f',
+              900: '#071f14',
+              950: '#04140d',
+            },
+            gold: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+              700: '#b45309',
+            },
+            crimson: {
+              700: '#b91c1c',
+              800: '#991b1b',
+            }
+          },
+          fontFamily: {
+            serif: ['Cinzel', 'Georgia', 'serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Smooth Scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+    /* Festive Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #071f14;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #b45309;
+      border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #f59e0b;
+    }
+  </style>
+</head>
+<body class="bg-spruce-950 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-spruce-950">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-gradient-to-r from-gold-700 via-gold-500 to-gold-700 text-spruce-950 font-semibold text-xs md:text-sm py-2 px-4 text-center tracking-wide shadow-md">
+    <span>🎄 2026 Mountain Delivery Booking Open! Serving Willow Glen, Menlo Park, Palo Alto & Santa Cruz Mountains.</span>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-40 bg-spruce-900/95 backdrop-blur-md border-b border-gold-600/30 px-4 md:px-8 py-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-full bg-spruce-800 border border-gold-500/50 flex items-center justify-center text-gold-400 group-hover:scale-105 transition-transform">
+          <i data-lucide="trees" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="font-serif text-lg md:text-xl font-bold tracking-wider text-amber-100 block leading-none">SANTA CRUZ MOUNTAIN</span>
+          <span class="text-[10px] md:text-xs font-semibold tracking-widest text-gold-400 uppercase">Tree Co.</span>
+        </div>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-200">
+        <a href="#why-us" class="hover:text-gold-400 transition-colors">Our Trees</a>
+        <a href="#booking" class="hover:text-gold-400 transition-colors">Pricing & Booking</a>
+        <a href="#custom-inquiry" class="hover:text-gold-400 transition-colors">Custom Orders</a>
+        <a href="#service-areas" class="hover:text-gold-400 transition-colors">Service Areas</a>
+        <a href="#reviews" class="hover:text-gold-400 transition-colors">Reviews</a>
+        <a href="#faq" class="hover:text-gold-400 transition-colors">FAQ</a>
+      </div>
+
+      <a href="#booking" class="bg-gold-500 hover:bg-gold-400 text-spruce-950 px-4 py-2 rounded-lg font-bold text-sm tracking-wide transition-all duration-200 shadow-lg shadow-gold-500/20 flex items-center gap-2">
+        <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+        Book Tree
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header id="why-us" class="relative overflow-hidden pt-12 pb-20 md:py-28 bg-gradient-to-b from-spruce-900 via-spruce-950 to-spruce-950 border-b border-gold-600/20">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:24px_24px]"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10 grid md:grid-cols-12 gap-12 items-center">
+      <div class="md:col-span-7 space-y-6 text-center md:text-left">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-spruce-800/80 border border-gold-500/30 text-gold-300 text-xs font-medium">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-gold-400"></i>
+          Hand-Selected Mountain Harvests
+        </div>
+
+        <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-amber-50 leading-tight">
+          Farm-Direct Christmas Trees <br class="hidden sm:inline"/>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-amber-200">Delivered & Installed</span>
+        </h1>
+
+        <p class="text-slate-300 text-base md:text-lg max-w-2xl leading-relaxed">
+          Skip the crowded retail lots and sap on your car. We harvest prime-cut Noble, Grand, and Douglas Firs directly from local Santa Cruz Mountain farms and deliver hands-free setup straight to your living room.
+        </p>
+
+        <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <a href="#booking" class="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-spruce-950 font-bold px-8 py-4 rounded-xl text-center text-base shadow-xl shadow-gold-500/20 flex items-center justify-center gap-2 group transition-all">
+            <span>Book Your Tree Now</span>
+            <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+          </a>
+          <a href="#custom-inquiry" class="bg-spruce-800/80 hover:bg-spruce-800 text-amber-100 border border-gold-500/30 font-semibold px-6 py-4 rounded-xl text-center text-base transition-colors flex items-center justify-center gap-2">
+            <i data-lucide="help-circle" class="w-5 h-5 text-gold-400"></i>
+            Request Custom Quote (15ft+)
+          </a>
+        </div>
+
+        <div class="pt-6 grid grid-cols-3 gap-4 border-t border-slate-800/80 max-w-lg mx-auto md:mx-0 text-center md:text-left">
+          <div>
+            <span class="block text-2xl font-bold font-serif text-gold-400">5 – 15 ft</span>
+            <span class="text-xs text-slate-400">All Height Options</span>
+          </div>
+          <div>
+            <span class="block text-2xl font-bold font-serif text-gold-400">100%</span>
+            <span class="text-xs text-slate-400">Hands-Free Setup</span>
+          </div>
+          <div>
+            <span class="block text-2xl font-bold font-serif text-gold-400">FREE</span>
+            <span class="text-xs text-slate-400">Delivery on Trees &gt; 9ft</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Card Graphic -->
+      <div class="md:col-span-5">
+        <div class="relative mx-auto max-w-md rounded-2xl bg-gradient-to-b from-spruce-800 to-spruce-900 p-1 border border-gold-500/40 shadow-2xl">
+          <div class="bg-spruce-950 rounded-[14px] p-6 text-slate-200">
+            <div class="flex justify-between items-center pb-4 mb-4 border-b border-slate-800">
+              <span class="text-xs font-semibold text-gold-400 uppercase tracking-wider">Bay Area Price Comparison</span>
+              <span class="bg-crimson-800/80 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase">Save 50%+</span>
+            </div>
+
+            <div class="space-y-4">
+              <div class="p-3.5 rounded-lg bg-spruce-900 border border-slate-800 flex justify-between items-center">
+                <div>
+                  <span class="text-xs text-slate-400 block">Peninsula Retail Lots</span>
+                  <span class="font-semibold text-sm text-slate-200">15-Ft Tree (Tree Only)</span>
+                </div>
+                <span class="text-red-400 line-through font-bold text-lg">$1,200+</span>
+              </div>
+
+              <div class="p-3.5 rounded-lg bg-spruce-800/80 border border-gold-500/50 flex justify-between items-center shadow-lg">
+                <div>
+                  <span class="text-xs text-gold-400 font-medium block">Santa Cruz Mountain Tree Co.</span>
+                  <span class="font-bold text-sm text-amber-100">15-Ft Tree (Free Delivery &amp; Setup)</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-gold-400 font-extrabold text-xl block">$500</span>
+                  <span class="text-[10px] text-emerald-400 font-semibold">Delivered &amp; Erected</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-slate-800 text-center text-xs text-slate-400 flex items-center justify-center gap-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i>
+              <span>Includes fresh trunk trim, indoor positioning &amp; level check</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- BOOKING ENGINE SECTION -->
+  <section id="booking" class="py-20 bg-spruce-950 relative">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-amber-50">Select Your Tree &amp; Schedule Delivery</h2>
+        <p class="text-slate-300 text-sm md:text-base">
+          Choose your tree height, select add-ons, and reserve your date. A 50% deposit locks in your mountain delivery.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- CALCULATOR & FORM (Left 7 Cols) -->
+        <div class="lg:col-span-7 bg-spruce-900/90 border border-gold-500/30 rounded-2xl p-6 md:p-8 space-y-8 shadow-xl">
+          
+          <!-- STEP 1: Select Tree Height -->
+          <div>
+            <label class="block font-serif text-lg font-bold text-amber-100 mb-3 flex items-center gap-2">
+              <span class="w-6 h-6 rounded-full bg-gold-500 text-spruce-950 text-xs flex items-center justify-center font-sans font-bold">1</span>
+              Select Tree Height &amp; Tier
+            </label>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3" id="tree-selector">
+              <button type="button" onclick="selectTree('5-6', 175, false)" class="tree-btn p-3.5 rounded-xl border border-slate-700 bg-spruce-950 text-left hover:border-gold-500 transition-all focus:outline-none" data-height="5-6">
+                <span class="text-xs text-slate-400 block font-medium">5 – 6 Feet</span>
+                <span class="font-bold text-amber-100 text-lg block">$175</span>
+              </button>
+
+              <button type="button" onclick="selectTree('7-8', 240, false)" class="tree-btn p-3.5 rounded-xl border border-gold-500 bg-spruce-800 text-left hover:border-gold-500 transition-all focus:outline-none ring-2 ring-gold-500/50" data-height="7-8">
+                <span class="text-xs text-gold-400 block font-semibold">7 – 8 Feet</span>
+                <span class="font-bold text-amber-100 text-lg block">$240</span>
+                <span class="text-[9px] text-emerald-400 font-medium">Most Popular</span>
+              </button>
+
+              <button type="button" onclick="selectTree('9-10', 275, true)" class="tree-btn p-3.5 rounded-xl border border-slate-700 bg-spruce-950 text-left hover:border-gold-500 transition-all focus:outline-none" data-height="9-10">
+                <span class="text-xs text-slate-400 block font-medium">9 – 10 Feet</span>
+                <span class="font-bold text-amber-100 text-lg block">$275</span>
+                <span class="text-[9px] text-emerald-400 font-medium">Free Delivery</span>
+              </button>
+
+              <button type="button" onclick="selectTree('11-12', 350, true)" class="tree-btn p-3.5 rounded-xl border border-slate-700 bg-spruce-950 text-left hover:border-gold-500 transition-all focus:outline-none" data-height="11-12">
+                <span class="text-xs text-slate-400 block font-medium">11 – 12 Feet</span>
+                <span class="font-bold text-amber-100 text-lg block">$350</span>
+                <span class="text-[9px] text-emerald-400 font-medium">Free Delivery</span>
+              </button>
+
+              <button type="button" onclick="selectTree('13-14', 425, true)" class="tree-btn p-3.5 rounded-xl border border-slate-700 bg-spruce-950 text-left hover:border-gold-500 transition-all focus:outline-none" data-height="13-14">
+                <span class="text-xs text-slate-400 block font-medium">13 – 14 Feet</span>
+                <span class="font-bold text-amber-100 text-lg block">$425</span>
+                <span class="text-[9px] text-emerald-400 font-medium">Free Delivery</span>
+              </button>
+
+              <button type="button" onclick="selectTree('15', 500, true)" class="tree-btn p-3.5 rounded-xl border border-gold-500/50 bg-spruce-950 text-left hover:border-gold-500 transition-all focus:outline-none" data-height="15">
+                <span class="text-xs text-gold-300 block font-semibold">15 Feet</span>
+                <span class="font-bold text-amber-100 text-lg block">$500</span>
+                <span class="text-[9px] text-emerald-400 font-medium">Free Delivery</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 2: Optional Add-Ons -->
+          <div>
+            <label class="block font-serif text-lg font-bold text-amber-100 mb-3 flex items-center gap-2">
+              <span class="w-6 h-6 rounded-full bg-gold-500 text-spruce-950 text-xs flex items-center justify-center font-sans font-bold">2</span>
+              Regional &amp; Service Add-Ons
+            </label>
+
+            <div class="space-y-3">
+              <!-- Peninsula Distance Surcharge -->
+              <label id="addon-distance-container" class="flex items-center justify-between p-3.5 rounded-xl border border-slate-800 bg-spruce-950 hover:bg-spruce-900 cursor-pointer transition-colors">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" id="addon-distance" onchange="calculateTotal()" class="w-4 h-4 rounded text-gold-500 focus:ring-gold-500 bg-slate-900 border-slate-700">
+                  <div>
+                    <span class="text-sm font-semibold text-amber-100 block" id="distance-title-text">Peninsula / South Bay Distance Surcharge</span>
+                    <span class="text-xs text-slate-400" id="distance-sub-text">Willow Glen, Menlo Park, Palo Alto (Free for trees &gt; 9ft)</span>
+                  </div>
+                </div>
+                <span class="text-sm font-bold text-gold-400" id="distance-price-tag">+$25</span>
+              </label>
+
+              <!-- Stand Selection -->
+              <div class="p-3.5 rounded-xl border border-slate-800 bg-spruce-950 space-y-2">
+                <span class="text-sm font-semibold text-amber-100 block">Heavy-Duty Tree Stand Supply</span>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+                  <label class="flex items-center gap-2 p-2 rounded bg-spruce-900 border border-slate-800 cursor-pointer">
+                    <input type="radio" name="stand-option" value="none" checked onchange="calculateTotal()" class="text-gold-500">
+                    <span class="text-slate-300">Own Stand ($0)</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-2 rounded bg-spruce-900 border border-slate-800 cursor-pointer">
+                    <input type="radio" name="stand-option" value="standard" onchange="calculateTotal()" class="text-gold-500">
+                    <span class="text-amber-100">6–12 ft Stand (+$75)</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-2 rounded bg-spruce-900 border border-slate-800 cursor-pointer">
+                    <input type="radio" name="stand-option" value="heavy" onchange="calculateTotal()" class="text-gold-500">
+                    <span class="text-amber-100">12 ft+ Heavy Stand (+$150)</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Post-Holiday Haul-Away -->
+              <label class="flex items-center justify-between p-3.5 rounded-xl border border-slate-800 bg-spruce-950 hover:bg-spruce-900 cursor-pointer transition-colors">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" id="addon-haul" onchange="calculateTotal()" class="w-4 h-4 rounded text-gold-500 focus:ring-gold-500 bg-slate-900 border-slate-700">
+                  <div>
+                    <span class="text-sm font-semibold text-amber-100 block">January Post-Holiday Haul-Away &amp; Recycling</span>
+                    <span class="text-xs text-slate-400">Includes inside bagging, sectioning &amp; green recycling</span>
+                  </div>
+                </div>
+                <span class="text-sm font-bold text-gold-400">+$100</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- STEP 3: Customer Details Form -->
+          <div>
+            <label class="block font-serif text-lg font-bold text-amber-100 mb-3 flex items-center gap-2">
+              <span class="w-6 h-6 rounded-full bg-gold-500 text-spruce-950 text-xs flex items-center justify-center font-sans font-bold">3</span>
+              Delivery &amp; Address Details
+            </label>
+
+            <!-- Connected directly to FormSubmit for instant email notifications to jchestnut2406@gmail.com -->
+            <form id="order-form" action="https://formsubmit.co/jchestnut2406@gmail.com" method="POST" onsubmit="handleBookingSubmit(event)" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <!-- FormSubmit Hidden Configuration Inputs -->
+              <input type="hidden" name="_subject" value="🎄 New Christmas Tree Reservation Request!">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="Selected Tree" id="form-hidden-tree" value="7–8 Ft Santa Cruz Mountain Fir ($240)">
+              <input type="hidden" name="Total Price" id="form-hidden-total" value="$240.00">
+              <input type="hidden" name="Deposit Required" id="form-hidden-deposit" value="$120.00">
+              <input type="hidden" name="Stand Option" id="form-hidden-stand" value="Own Stand">
+              <input type="hidden" name="Haul Away" id="form-hidden-haul" value="No">
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Full Name *</label>
+                <input type="text" name="Name" id="cust-name" required placeholder="Jane Doe" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-amber-100 focus:outline-none focus:border-gold-500">
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Phone Number *</label>
+                <input type="tel" name="Phone" id="cust-phone" required placeholder="(831) 555-0199" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-amber-100 focus:outline-none focus:border-gold-500">
+              </div>
+
+              <div class="sm:col-span-2">
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Email Address *</label>
+                <input type="email" name="Email" id="cust-email" required placeholder="jane@example.com" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-amber-100 focus:outline-none focus:border-gold-500">
+              </div>
+
+              <div class="sm:col-span-2">
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Delivery Address *</label>
+                <input type="text" name="Address" id="cust-address" required placeholder="123 Santa Cruz Ave, Menlo Park, CA 94025" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-amber-100 focus:outline-none focus:border-gold-500">
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Preferred Delivery Date *</label>
+                <input type="date" name="Delivery Date" id="cust-date" required class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-amber-100 focus:outline-none focus:border-gold-500">
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Ceiling Height (ft)</label>
+                <input type="text" name="Ceiling Height" id="cust-ceiling" placeholder="e.g. 10 ft vaulted" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-amber-100 focus:outline-none focus:border-gold-500">
+              </div>
+
+              <div class="sm:col-span-2">
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Access / Special Notes</label>
+                <textarea name="Notes" id="cust-notes" rows="2" placeholder="e.g. Stairs, narrow doorways, gate code..." class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-amber-100 focus:outline-none focus:border-gold-500"></textarea>
+              </div>
+
+              <button type="submit" class="sm:col-span-2 w-full bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-spruce-950 font-bold py-4 rounded-xl text-base shadow-xl shadow-gold-500/20 transition-all flex items-center justify-center gap-2">
+                <i data-lucide="check-circle" class="w-5 h-5"></i>
+                Submit Tree Reservation
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+        <!-- SUMMARY CARD (Right 5 Cols - Sticky) -->
+        <div class="lg:col-span-5 sticky top-24">
+          <div class="bg-spruce-900 border-2 border-gold-500/50 rounded-2xl p-6 md:p-8 shadow-2xl">
+            <h3 class="font-serif text-xl font-bold text-amber-100 pb-4 border-b border-slate-800 flex justify-between items-center">
+              <span>Order Summary</span>
+              <i data-lucide="receipt" class="w-5 h-5 text-gold-400"></i>
+            </h3>
+
+            <!-- Itemized list -->
+            <div class="py-6 space-y-4 border-b border-slate-800 text-sm">
+              <div class="flex justify-between items-center">
+                <div>
+                  <span class="font-semibold text-amber-100 block" id="summary-tree-title">7 – 8 Ft Santa Cruz Mountain Fir</span>
+                  <span class="text-xs text-slate-400">Includes fresh trim &amp; indoor placement</span>
+                </div>
+                <span class="font-bold text-amber-100" id="summary-tree-price">$240.00</span>
+              </div>
+
+              <div id="summary-distance-row" class="hidden justify-between items-center text-slate-300">
+                <span class="text-xs" id="summary-distance-label">Peninsula Distance Surcharge</span>
+                <span class="font-semibold text-gold-400" id="summary-distance-val">+$25.00</span>
+              </div>
+
+              <div id="summary-stand-row" class="hidden justify-between items-center text-slate-300">
+                <span class="text-xs" id="summary-stand-label">Commercial Stand Supply</span>
+                <span class="font-semibold text-gold-400" id="summary-stand-val">+$75.00</span>
+              </div>
+
+              <div id="summary-haul-row" class="hidden justify-between items-center text-slate-300">
+                <span class="text-xs">January Haul-Away &amp; Recycling</span>
+                <span class="font-semibold text-gold-400">+$100.00</span>
+              </div>
+            </div>
+
+            <!-- Total Breakdown -->
+            <div class="py-6 space-y-3">
+              <div class="flex justify-between items-center">
+                <span class="text-slate-300 text-sm">Total Order Price:</span>
+                <span class="text-2xl font-extrabold font-serif text-amber-100" id="summary-total">$240.00</span>
+              </div>
+
+              <div class="p-3.5 rounded-xl bg-spruce-950 border border-gold-500/30 flex justify-between items-center">
+                <div>
+                  <span class="text-xs font-bold text-gold-400 block uppercase">50% Deposit Due Now</span>
+                  <span class="text-[11px] text-slate-400">Locks in your delivery date</span>
+                </div>
+                <span class="text-xl font-bold text-gold-400" id="summary-deposit">$120.00</span>
+              </div>
+            </div>
+
+            <!-- Trust signals -->
+            <div class="space-y-2 text-xs text-slate-400 pt-2 border-t border-slate-800">
+              <div class="flex items-center gap-2">
+                <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+                <span>Free Peninsula delivery on all trees &gt; 9ft</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i data-lucide="clock" class="w-4 h-4 text-gold-400"></i>
+                <span>Flexible delivery windows (Nov 20 – Dec 20)</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM / OVERSIZED INQUIRY SECTION -->
+  <section id="custom-inquiry" class="py-16 bg-spruce-900 border-t border-b border-gold-600/20">
+    <div class="max-w-5xl mx-auto px-4 md:px-8">
+      <div class="bg-gradient-to-br from-spruce-950 to-spruce-900 border border-gold-500/30 rounded-2xl p-8 md:p-12 shadow-2xl grid md:grid-cols-12 gap-8 items-center">
+        
+        <div class="md:col-span-5 space-y-4">
+          <span class="bg-gold-500/20 text-gold-300 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Commercial &amp; High-Ceiling Orders</span>
+          <h3 class="font-serif text-2xl md:text-3xl font-bold text-amber-100">Need a Custom Commercial or Extra-Large Tree?</h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            We deliver across Santa Cruz, Scotts Valley, Los Gatos, Saratoga, Campbell, Willow Glen, Menlo Park, Palo Alto, and the surrounding Peninsula &amp; South Bay.
+          </p>
+          <p class="text-xs text-amber-200/90 bg-spruce-950 p-3 rounded-lg border border-gold-500/20">
+            <strong>Size Availability:</strong> Mountain farm inventory tops out around 16–18 feet max. Submit your request with your ideal dimensions, and we'll check farm availability to confirm if it can be harvested!
+          </p>
+          <ul class="text-xs text-slate-400 space-y-2 pt-2">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-gold-400"></i> Custom mountain harvest verification</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-gold-400"></i> Heavy-duty commercial stand anchoring</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-gold-400"></i> Direct invoicing for businesses, HOAs &amp; luxury estates</li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-7">
+          <form action="https://formsubmit.co/jchestnut2406@gmail.com" method="POST" class="space-y-4">
+            <input type="hidden" name="_subject" value="🏢 Custom / Oversized Tree Inquiry">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs text-slate-300 mb-1">Contact Name *</label>
+                <input type="text" name="Contact Name" required placeholder="Name" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-amber-100">
+              </div>
+              <div>
+                <label class="block text-xs text-slate-300 mb-1">Company / Property</label>
+                <input type="text" name="Company Name" placeholder="Optional" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-amber-100">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs text-slate-300 mb-1">Phone *</label>
+                <input type="tel" name="Phone" required placeholder="(831) 000-0000" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-amber-100">
+              </div>
+              <div>
+                <label class="block text-xs text-slate-300 mb-1">Desired Tree Height (e.g. 16-18 ft)</label>
+                <input type="text" name="Tree Height" placeholder="e.g. 16 - 18 ft max" class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-amber-100">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs text-slate-300 mb-1">Project Details &amp; Location *</label>
+              <textarea name="Project Details" rows="3" required placeholder="Tell us your location and ceiling specs. We'll verify farm availability and get right back to you..." class="w-full bg-spruce-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-amber-100"></textarea>
+            </div>
+
+            <button type="submit" class="w-full bg-gold-500 hover:bg-gold-400 text-spruce-950 font-bold py-3 rounded-xl text-xs uppercase tracking-wider transition-colors">
+              Submit Custom Inquiry Request
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER REVIEWS & VIDEO SHOWCASE SECTION -->
+  <section id="reviews" class="py-20 bg-spruce-950 border-b border-gold-600/20">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14 space-y-4">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-300 text-xs font-semibold uppercase tracking-wider">
+          <i data-lucide="star" class="w-3.5 h-3.5 text-gold-400 fill-gold-400"></i> Customer Highlights
+        </div>
+        <h2 class="font-serif text-3xl md:text-4xl font-extrabold text-amber-50">Loved by Families Across the Bay</h2>
+        <p class="text-slate-300 text-sm md:text-base">
+          Here is what our clients have to say about our mountain-direct trees and hands-free setup service.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-8 items-center">
+        <!-- Featured Video Testimonial Card (7 cols) -->
+        <div class="lg:col-span-7 bg-gradient-to-b from-spruce-900 to-spruce-950 border-2 border-gold-500/40 rounded-2xl p-6 md:p-8 shadow-2xl space-y-6">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-gold-500/20 border border-gold-500 flex items-center justify-center text-gold-400 font-bold font-serif">
+                SC
+              </div>
+              <div>
+                <h4 class="font-bold text-amber-100 text-base">The Miller Family</h4>
+                <p class="text-xs text-slate-400">Menlo Park • 14ft Mountain Noble Fir</p>
+              </div>
+            </div>
+            <div class="flex text-gold-400 gap-1">
+              <i data-lucide="star" class="w-4 h-4 fill-gold-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-gold-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-gold-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-gold-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-gold-400"></i>
+            </div>
+          </div>
+
+          <!-- Cute Video Player Container -->
+          <div class="relative rounded-xl overflow-hidden bg-black border border-slate-800 aspect-video flex items-center justify-center group">
+            <!-- HTML5 Video Tag Ready for your video file -->
+            <video id="review-video" class="w-full h-full object-cover" controls poster="image.png">
+              <source src="customer_video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <blockquote class="text-slate-300 text-sm italic leading-relaxed bg-spruce-950/60 p-4 rounded-xl border border-slate-800">
+            "Getting a 14-foot tree inside our high-ceiling foyer used to be a nightmare until we found Santa Cruz Mountain Tree Co. They brought the freshest tree we've ever had, got it upright in 15 minutes, and left zero pine needles on the floor! Look at how gorgeous it turned out!"
+          </blockquote>
+        </div>
+
+        <!-- Additional Review Cards (5 cols) -->
+        <div class="lg:col-span-5 space-y-5">
+          <div class="bg-spruce-900 border border-slate-800 rounded-xl p-5 space-y-3 shadow-lg">
+            <div class="flex justify-between items-center">
+              <span class="font-bold text-amber-100 text-sm">David K.</span>
+              <div class="flex text-gold-400 gap-0.5">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+              </div>
+            </div>
+            <p class="text-xs text-slate-300">"Saved me from having to rent a truck and navigate Highway 17. The tree arrived super fresh and smelled incredible for weeks!"</p>
+            <span class="text-[11px] text-gold-400 font-medium block">Willow Glen, San Jose</span>
+          </div>
+
+          <div class="bg-spruce-900 border border-slate-800 rounded-xl p-5 space-y-3 shadow-lg">
+            <div class="flex justify-between items-center">
+              <span class="font-bold text-amber-100 text-sm">Sarah M.</span>
+              <div class="flex text-gold-400 gap-0.5">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+              </div>
+            </div>
+            <p class="text-xs text-slate-300">"Hands down the easiest Christmas setup ever. The effort-free service is worth every penny!"</p>
+            <span class="text-[11px] text-gold-400 font-medium block">Palo Alto</span>
+          </div>
+
+          <div class="bg-spruce-900 border border-slate-800 rounded-xl p-5 space-y-3 shadow-lg">
+            <div class="flex justify-between items-center">
+              <span class="font-bold text-amber-100 text-sm">Tech Office Mgr</span>
+              <div class="flex text-gold-400 gap-0.5">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-gold-400"></i>
+              </div>
+            </div>
+            <p class="text-xs text-slate-300">"Sourced a massive 16-footer for our main building lobby. Flawless communication and commercial setup!"</p>
+            <span class="text-[11px] text-gold-400 font-medium block">Campbell / Los Gatos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREAS SECTION -->
+  <section id="service-areas" class="py-16 bg-spruce-900/50 border-b border-gold-600/20">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10 space-y-3">
+        <h2 class="font-serif text-3xl font-extrabold text-amber-50">Our Service Areas</h2>
+        <p class="text-slate-300 text-sm">We provide farm-to-front-door delivery and hands-free setup across the following regions:</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div class="p-4 rounded-xl bg-spruce-950 border border-slate-800">
+          <i data-lucide="map-pin" class="w-5 h-5 text-gold-400 mx-auto mb-2"></i>
+          <h4 class="font-bold text-amber-100 text-sm">Peninsula</h4>
+          <p class="text-xs text-slate-400 mt-1">Menlo Park, Palo Alto, Atherton, Woodside</p>
+        </div>
+        <div class="p-4 rounded-xl bg-spruce-950 border border-slate-800">
+          <i data-lucide="map-pin" class="w-5 h-5 text-gold-400 mx-auto mb-2"></i>
+          <h4 class="font-bold text-amber-100 text-sm">South Bay &amp; West Valley</h4>
+          <p class="text-xs text-slate-400 mt-1">Willow Glen, San Jose, Campbell, Los Gatos, Saratoga</p>
+        </div>
+        <div class="p-4 rounded-xl bg-spruce-950 border border-slate-800">
+          <i data-lucide="map-pin" class="w-5 h-5 text-gold-400 mx-auto mb-2"></i>
+          <h4 class="font-bold text-amber-100 text-sm">Mountain Communities</h4>
+          <p class="text-xs text-slate-400 mt-1">Scotts Valley, Felton, Ben Lomond, Boulder Creek</p>
+        </div>
+        <div class="p-4 rounded-xl bg-spruce-950 border border-slate-800">
+          <i data-lucide="map-pin" class="w-5 h-5 text-gold-400 mx-auto mb-2"></i>
+          <h4 class="font-bold text-amber-100 text-sm">Santa Cruz Coast</h4>
+          <p class="text-xs text-slate-400 mt-1">Santa Cruz, Capitola, Soquel, Aptos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section id="faq" class="py-20 bg-spruce-950">
+    <div class="max-w-4xl mx-auto px-4 md:px-8">
+      <div class="text-center mb-12 space-y-3">
+        <h2 class="font-serif text-3xl font-extrabold text-amber-50">Frequently Asked Questions</h2>
+        <p class="text-slate-300 text-sm">Everything you need to know about our mountain tree deliveries.</p>
+      </div>
+
+      <div class="space-y-4">
+        <div class="p-5 rounded-xl bg-spruce-900 border border-slate-800 space-y-2">
+          <h4 class="font-bold text-amber-100 text-base flex items-center gap-2">
+            <i data-lucide="help-circle" class="w-4 h-4 text-gold-400"></i>
+            What does "Hands-Free / Effort-Free" setup include?
+          </h4>
+          <p class="text-xs text-slate-300 leading-relaxed pl-6">
+            We bring the tree inside your home or office, place it securely into your tree stand (or one supplied by us), adjust and level it, unwrap the netting, and sweep up any loose needles before leaving.
+          </p>
+        </div>
+
+        <div class="p-5 rounded-xl bg-spruce-900 border border-slate-800 space-y-2">
+          <h4 class="font-bold text-amber-100 text-base flex items-center gap-2">
+            <i data-lucide="truck" class="w-4 h-4 text-gold-400"></i>
+            How does delivery pricing work?
+          </h4>
+          <p class="text-xs text-slate-300 leading-relaxed pl-6">
+            Delivery is <strong>100% FREE for all trees 9ft and over</strong>! For trees 8ft and under, a flat $25 Peninsula/South Bay distance surcharge applies.
+          </p>
+        </div>
+
+        <div class="p-5 rounded-xl bg-spruce-900 border border-slate-800 space-y-2">
+          <h4 class="font-bold text-amber-100 text-base flex items-center gap-2">
+            <i data-lucide="tree-pine" class="w-4 h-4 text-gold-400"></i>
+            What tree species do you offer?
+          </h4>
+          <p class="text-xs text-slate-300 leading-relaxed pl-6">
+            We harvest premium Noble Firs (strong branches, classic scent), Grand Firs (lush green, sweet citrus aroma), and Douglas Firs directly from local Santa Cruz Mountain farms.
+          </p>
+        </div>
+
+        <div class="p-5 rounded-xl bg-spruce-900 border border-slate-800 space-y-2">
+          <h4 class="font-bold text-amber-100 text-base flex items-center gap-2">
+            <i data-lucide="calendar" class="w-4 h-4 text-gold-400"></i>
+            How does post-holiday haul-away work?
+          </h4>
+          <p class="text-xs text-slate-300 leading-relaxed pl-6">
+            If you select the $100 January haul-away add-on, we will schedule a pickup date in early January to dismantle the tree indoors, bag it, carry it out cleanly, and haul it to a green recycling facility.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // State management - Initial Default 7-8 ft ($240)
+    let selectedTreeHeight = '7-8';
+    let selectedTreePrice = 240;
+    let selectedTreeLabel = '7 – 8 Ft Santa Cruz Mountain Fir';
+    let isFreeDelivery = false;
+
+    function selectTree(height, price, freeDelivery) {
+      selectedTreeHeight = height;
+      selectedTreePrice = price;
+      isFreeDelivery = freeDelivery;
+      selectedTreeLabel = height === '15' ? '15 Ft Santa Cruz Mountain Fir' : `${height} Ft Santa Cruz Mountain Fir`;
+
+      // Update active button state styling
+      document.querySelectorAll('.tree-btn').forEach(btn => {
+        btn.classList.remove('border-gold-500', 'bg-spruce-800', 'ring-2', 'ring-gold-500/50');
+        btn.classList.add('border-slate-700', 'bg-spruce-950');
+      });
+
+      const activeBtn = document.querySelector(`.tree-btn[data-height="${height}"]`);
+      if (activeBtn) {
+        activeBtn.classList.remove('border-slate-700', 'bg-spruce-950');
+        activeBtn.classList.add('border-gold-500', 'bg-spruce-800', 'ring-2', 'ring-gold-500/50');
+      }
+
+      // Handle Distance Surcharge display when tree is over 9ft
+      const distCheckbox = document.getElementById('addon-distance');
+      const distContainer = document.getElementById('addon-distance-container');
+      const distSubText = document.getElementById('distance-sub-text');
+      const distPriceTag = document.getElementById('distance-price-tag');
+
+      if (isFreeDelivery) {
+        distCheckbox.checked = false;
+        distCheckbox.disabled = true;
+        distContainer.classList.add('opacity-60');
+        distSubText.innerText = 'FREE Delivery included for trees > 9ft!';
+        distPriceTag.innerText = 'FREE';
+      } else {
+        distCheckbox.disabled = false;
+        distContainer.classList.remove('opacity-60');
+        distSubText.innerText = 'Willow Glen, Menlo Park, Palo Alto (Free for trees > 9ft)';
+        distPriceTag.innerText = '+$25';
+      }
+
+      calculateTotal();
+    }
+
+    function calculateTotal() {
+      let total = selectedTreePrice;
+
+      const hasDistance = document.getElementById('addon-distance').checked && !isFreeDelivery;
+      const standVal = document.querySelector('input[name="stand-option"]:checked').value;
+      const hasHaul = document.getElementById('addon-haul').checked;
+
+      let standCost = 0;
+      let standText = 'Own Stand';
+      if (standVal === 'standard') {
+        standCost = 75;
+        standText = '6–12 ft Heavy Stand (+$75)';
+      } else if (standVal === 'heavy') {
+        standCost = 150;
+        standText = '12 ft+ Heavy Stand (+$150)';
+      }
+
+      if (hasDistance) total += 25;
+      total += standCost;
+      if (hasHaul) total += 100;
+
+      const deposit = total * 0.5;
+
+      // Update DOM Summary
+      document.getElementById('summary-tree-title').innerText = selectedTreeLabel;
+      document.getElementById('summary-tree-price').innerText = `$${selectedTreePrice}.00`;
+
+      // Distance Surcharge row
+      const distRow = document.getElementById('summary-distance-row');
+      if (isFreeDelivery) {
+        distRow.style.display = 'flex';
+        document.getElementById('summary-distance-label').innerText = 'Peninsula Delivery Surcharge';
+        document.getElementById('summary-distance-val').innerText = 'FREE (Tree > 9ft)';
+      } else if (hasDistance) {
+        distRow.style.display = 'flex';
+        document.getElementById('summary-distance-label').innerText = 'Peninsula Distance Surcharge';
+        document.getElementById('summary-distance-val').innerText = '+$25.00';
+      } else {
+        distRow.style.display = 'none';
+      }
+
+      // Stand row
+      const standRow = document.getElementById('summary-stand-row');
+      if (standCost > 0) {
+        standRow.style.display = 'flex';
+        document.getElementById('summary-stand-label').innerText = standVal === 'heavy' ? '12ft+ Heavy Stand' : '6-12ft Stand';
+        document.getElementById('summary-stand-val').innerText = `+$${standCost}.00`;
+      } else {
+        standRow.style.display = 'none';
+      }
+
+      // Haul row
+      document.getElementById('summary-haul-row').style.display = hasHaul ? 'flex' : 'none';
+
+      document.getElementById('summary-total').innerText = `$${total}.00`;
+      document.getElementById('summary-deposit').innerText = `$${deposit.toFixed(2)}`;
+
+      // Update hidden form inputs for FormSubmit email payload
+      document.getElementById('form-hidden-tree').value = `${selectedTreeLabel} ($${selectedTreePrice})`;
+      document.getElementById('form-hidden-total').value = `$${total}.00`;
+      document.getElementById('form-hidden-deposit').value = `$${deposit.toFixed(2)}`;
+      document.getElementById('form-hidden-stand').value = standText;
+      document.getElementById('form-hidden-haul').value = hasHaul ? 'Yes ($100)' : 'No';
+    }
+
+    function handleBookingSubmit(e) {
+      // Allow form to submit to FormSubmit endpoint while opening confirmation modal
+      const name = document.getElementById('cust-name').value;
+      const phone = document.getElementById('cust-phone').value;
+      const date = document.getElementById('cust-date').value;
+
+      document.getElementById('modal-cust-name').innerText = name;
+      document.getElementById('modal-phone').innerText = phone;
+      document.getElementById('modal-date').innerText = date || 'Selected Date';
+      document.getElementById('modal-tree-desc').innerText = selectedTreeLabel;
+      document.getElementById('modal-total').innerText = document.getElementById('summary-total').innerText;
+      document.getElementById('modal-deposit').innerText = document.getElementById('summary-deposit').innerText;
+
+      document.getElementById('confirmation-modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('confirmation-modal').classList.add('hidden');
+    }
+
+    // Initialize Lucide Icons & Calculate Defaults
+    window.onload = function() {
+      lucide.createIcons();
+      calculateTotal();
+      const dateInput = document.getElementById('cust-date');
+      if (dateInput) {
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.min = today;
+      }
+    };
+  </script>
+</body>
+</html>
